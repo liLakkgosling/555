@@ -1,0 +1,271 @@
+body {
+	margin: 0px;
+	font-family: 'Walter Turncoat', cursive;
+	font-family: 'Ultra', serif;
+	background-image: url(../img/background.png);
+	
+
+}
+
+section, header, footer{
+   width: 1250px;
+	margin: auto;
+}
+section{
+	height: 669px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	position: relative;
+	font-family: 'Walter Turncoat', cursive;
+	background-color: black;
+}
+
+header div.headerTXT ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 75px 84px 140px 100px 100px;
+}
+
+header p{
+	color: white;
+	position: relative;
+	left: 50px;
+}
+
+header div.headerTXT ul li a {
+	text-decoration: none;
+	color: white;
+}
+header div.headerTXT ul li a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+
+section#home {
+	position: relative;
+	
+	background-image: url(../img/bg1.png);
+
+}
+section#home h1 {
+	position: relative;
+	text-align:center;
+	width: 197px;
+	font-size: 40px;
+	left:40%;
+	margin: 0px;
+	top: 150px;
+}
+
+section#About {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	position: relative;
+	background-image: url(../img/bg2.png);
+}
+
+.container{
+	width: 600px;
+	height: 300px;
+	overflow: auto;
+	position: relative;
+	top: 30%;
+
+}
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(249 , 216 , 171,1);;
+}
+
+.container::-webkit-scrollbar-track {
+	background-color: rgb(249 , 216 , 171,0);;
+}
+
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 8px;
+
+}
+
+section#About div.container p{
+	position: relative;
+	top: 30%;
+	overflow: auto;
+	
+	font-size:40px;
+}
+	
+
+
+
+
+
+
+
+
+
+/*OwnersManual*/
+section#OwnersManual{
+	background-image: url(../img/bg1.png);
+	width: 1250px;
+	margin: auto;
+
+}
+
+ul.accordion li{
+ float:left;
+ width: 80px;
+ overflow: hidden;
+}
+
+ul.accordion {
+ width: 600px;
+}    
+
+.dws-wrapper {
+ max-width: 650px;
+ margin: 0 auto;
+}    
+
+ul.accordion{
+ display: flex;
+ justify-content: center;
+ margin-top: 0px;
+ top: 50px;
+ position: relative;
+ padding: 0;
+}       
+
+ul.accordion img{
+ width: 400px;
+ height: 550px;
+ margin-right: 100px;
+}  
+
+ul.accordion li{
+width: 50px;
+overflow: hidden;
+padding: 1px 1px 0;
+cursor:pointer;
+display:block;
+-moz-box-shadow:1px 3px 15px #7e807e;
+-webkit-box-shadow:1px 3px 15px #7e807e;
+box-shadow:1px 3px 15px #7e807e;
+ }   
+
+ ul.accordion li:hover{
+ width:900px;
+ -moz-box-shadow:1px 3px 15px #36c5fa;
+ -webkit-box-shadow:1px 3px 15px #36c5fa;
+ box-shadow:1px 5px 15px #36c5fa;
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -ms-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}    
+
+ul.accordion li{
+width: 50px;
+overflow: hidden;
+padding: 1px 1px 0;
+cursor:pointer;
+display:block;
+-moz-box-shadow:1px 3px 15px #7e807e;
+-webkit-box-shadow:1px 3px 15px #7e807e;
+box-shadow:1px 3px 15px #7e807e;
+ -webkit-transition: all 1.5s;
+ -moz-transition: all 1.5s;
+ -ms-transition: all 1.5s;
+ -o-transition: all 1.5s;
+ transition: all 1.5s;
+}    
+
+ul.accordion li:nth-child(1){
+ width: 900px;
+}  
+
+ul.accordion:hover li:nth-child(1){
+ width: 50px;
+}   
+
+ul.accordion li:nth-child(1):hover{
+ width: 900px;
+} 
+
+section#Byu{
+	background-image: url(../img/bg2.png);
+	display: grid;
+	grid-template-columns:repeat(2,1fr); 
+	position: relative;
+}
+ section#Byu img {
+ 	height: 669px;
+ 	width:625px;
+ }
+
+  section#Byu div#buy {
+ 	width:400px;
+ 	background-color: rgb(249 , 216 , 171);
+ 	height: 300px;
+ 	display: grid;
+ 	grid-template-columns: repeat(1,1fr);
+ 	left: 20%;
+ 	top: 30%;
+ 	position: relative;
+ 	border-radius: 8px;
+ }
+
+ section#Byu div#buy p{
+ 	text-align: center;
+ 	position: relative;
+ 	top: 40px;
+ }
+
+ #liniar{
+ 	border-top: 3px solid black;
+ 	position: relative;
+ 	width: 350px;
+ 	top: 10px;
+ 	left: 30px;
+ 	height: 4px;
+ }
+ #button {
+ 	background-color: blue;
+ 	border-radius: 15px;
+ 	width: 140px;
+ 	position: relative;
+ 	left: 32%;
+
+ }
+
+ footer {
+ 	background-color: black;
+ 	display: grid;
+ 	grid-template-columns: repeat(2,1fr);
+
+ }
+ footer a{
+ 	color: white;
+ 	text-decoration: none;
+ 	font-family: 'Walter Turncoat', cursive;
+ 	position: relative;
+ 	top: 20px;
+ 	width: 300px;
+ }
+
+ footer a:hover{
+ 	color: yellow;
+ 	
+ }
+ footer img {
+ 	position: relative;
+ 	left:120px;
+ }
